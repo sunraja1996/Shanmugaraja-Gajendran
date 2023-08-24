@@ -288,7 +288,7 @@ form.addEventListener('submit', (event) => {
   const subject = form.querySelector('input[name="subject"]').value;
   const message = form.querySelector('textarea[name="message"]').value;
 
-  const mailtoLink = `mailto:shanmugarajag@shanmugaraja-3108.in?subject=${subject}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0ASubject: ${subject}%0D%0AMessage: ${message}`;
+  const mailtoLink = `mailto:sunraja1996@gmail.com?subject=${subject}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0ASubject: ${subject}%0D%0AMessage: ${message}`;
 
   window.location.href = mailtoLink;
 
